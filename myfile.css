@@ -1,0 +1,239 @@
+*{
+
+	 margin: 0;
+	 padding: 0;
+	 box-sizing: border-box;
+
+
+}
+.bg{
+	   background-image: url('bulb.jpg');
+	   background-position: center;
+	   background-size: cover;
+	   height: 1400px;
+	   background-attachment: fixed;
+	   overflow-x: none;}
+.box{
+	    background-color: darkcyan;
+	    height: 120px;
+	    position: sticky;
+	    top: 0;
+	    z-index: 2;
+	   }
+
+
+
+.head{
+	   line-height: 100px;
+	   margin-left: 50px;
+	   font-size: 50px;
+	   color: white;
+	   text-transform: uppercase;
+	   letter-spacing: 2px;
+	   font-family: verdana;
+	   animation-name: move;
+	   animation-duration: 8s;
+	   animation-iteration-count: infinite;
+	   animation-delay: 0s;
+}
+@keyframes move{
+	             from{
+	             	    margin-left: 50px;
+	             	    color: white;
+
+	             }
+	             to{
+	             	   margin-left: 100px;
+	             	   letter-spacing: 50px;
+	             	   color: darkcyan;
+	             }
+}
+hr{
+	width: 140px;
+	margin-left: 50px;
+	height: 10px;
+	margin-top: -22px;
+	background-color: white;
+}
+.lh,.lh1{
+	  font-size: 15px;
+	  color: white;
+	  font-family: verdana;
+	  margin-left:200px;
+	  margin-top: -16px;
+
+}
+.lh1{
+	   margin-top:2px;
+	   text-transform: uppercase;
+	   letter-spacing: 2px;
+	   margin-left: 50px;
+}
+.innerbox{
+	        margin-top: 50px;
+	        height: 770px;
+	        width: 900px;
+	        border: none;
+	        margin-left: auto;
+	        margin-right: auto;
+	        background-color: rgba(255, 255, 255, 0.1);
+	        box-shadow: 0px 0px 50px white;
+	        border-radius: 20px;
+}
+.box1,.box2,.box3,.box4{
+	                  margin: 40px;
+	                  float: left;
+	                  box-shadow: 0px 0px 30px;
+	                  position: relative;
+	                  top: 40px;
+	                  background-color: rgba(255,255,255,0.1);
+	                  z-index: 1;
+
+}
+.box4{
+	    position: relative;
+	    top: 10px;
+}
+input{
+	   padding: 5px 5px 5px 5px;
+	   margin-top: 5px;
+	   font-size: 15px;
+	   text-transform: uppercase;
+	   font-family: verdana;
+	   letter-spacing: 2px;
+
+
+}
+label{
+	   padding: 2px 2px 2px 2px;
+	   font-size: 25px;
+	   font-family: sans-serif;
+	   letter-spacing: 1px;
+	   color: white;
+	   text-transform: uppercase;
+	   font-weight: bolder;
+	   text-shadow: 0px 2px 0px  darkcyan;
+}
+.btn{
+	   position: relative;
+	   top: 170px;
+	   left: 100px;
+	   border: none;
+	   padding: 10px 40px 10px 40px;
+	   background-color: white;
+	   box-shadow: 5px 5px  grey;
+	   font-size: 12px;
+	   font-family: sans-serif;
+	   color: black;
+	   text-transform: uppercase;
+	   letter-spacing: 1px;
+	   transition: 0.1s;
+	   font-family: sans-serif;
+}
+.btn:hover{
+	          transform: translateY(5px);
+	          box-shadow: none;
+	          background-color: limegreen;
+	          color: white;
+
+
+}
+
+
+.btn1{
+	   position: relative;
+	   top: 170px;
+	   left: 100px;
+	   border: none;
+	   padding: 10px 40px 10px 40px;
+	   background-color: white;
+	   box-shadow: 5px 5px  grey;
+	   font-size: 12px;
+	   font-family: sans-serif;
+	   color: black;
+	   text-transform: uppercase;
+	   letter-spacing: 1px;
+	   transition: 0.1s;
+	   font-family: sans-serif;
+}
+
+.btn1:hover{
+	          transform: translateY(5px);
+	          box-shadow: none;
+	          background-color: darkcyan;
+	          color: white;
+
+
+}
+.i{
+	  position: relative;
+	  left: 100px;
+	  top: 170px;
+	  border: none;
+	   padding: 10px 40px 10px 40px;
+	   background-color: white;
+	   box-shadow: 5px 5px grey;
+	   font-size: 12px;
+	   font-family: sans-serif;
+	   color: black;
+	   text-transform: uppercase;
+	   letter-spacing: 1px;
+	   transition: 0.1s;
+	   font-family: sans-serif;
+
+}
+::placeholder{
+	             letter-spacing: none;
+	             font-family: sans-serif;
+}
+.i:hover{
+	          transform: translateY(5px);
+	          box-shadow: none;
+	          background-color: orangered;
+	          color: white;
+
+}
+.footer{
+	        background-color: rgba(0, 0, 0, 0.7);
+	        box-shadow: 0px 0px 10px white;
+	        height: 400px;
+	        position: relative;
+	        top: 80px;
+}
+.img{
+	    height: 200px;
+	    width: 200px;
+	    position: relative;
+	    top: 60px;
+        box-shadow: 0px 0px 20px gold;
+	    border-radius: 50%;
+	    border-left: 5px solid white;
+	    border-bottom: 5px solid white;
+
+}
+h4{
+	 color: white;
+
+	 font-family: sans-serif;
+	 font-size: 15px;
+	 position: relative;
+	 top: 70px;
+	 
+	 text-transform: uppercase;
+	 letter-spacing: 2px;
+	 
+
+}
+.a{
+	 color: white;
+	 text-decoration: none;
+	 position: relative;
+	 left: 620px;
+	 top: 80px;
+	 letter-spacing: 1px;
+	 font-family: sans-serif;
+	 font-size: 15px;
+	 text-transform: uppercase;
+	 background-color: hotpink;
+	 padding: 5px 5px 5px 5px;
+}

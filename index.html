@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="myfile.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>electro.com</title>
+</head>
+<body>
+	<form action="##"  autocomplete="off">
+<div class="bg">
+
+<div class="box">
+
+	<h1 class="head">electo</h1>
+	<hr>
+	<h3 class="lh">2022</h3>
+	<h3 class="lh1">not for<mark> public</mark> only for <mark>domestic</mark></h3>
+
+</div>
+
+
+<div class="innerbox">
+	
+
+<div class="box1">
+	<label>name</label>
+	<br><br>
+	
+<input type="text" id="n1" placeholder="enter name">
+<br><br>
+<input type="text" id="n2" placeholder="enter name">
+<br><br>
+<input type="text" id="n3" placeholder="enter name">
+<br><br>
+<input type="text" id="n4" placeholder="enter name">
+<br><br>
+<input type="text" id="n5" placeholder="enter name">
+<br><br>
+<input type="text" id="n6" placeholder="enter name">
+
+
+</div>
+
+
+<div class="box2">
+<label>new - amount</label>
+<br><br>
+		
+<input type="number" id="a" placeholder="enter new-amount">
+<br><br>
+<input type="number" id="b" placeholder="enter new-amount">
+<br><br>
+<input type="number" id="c" placeholder="enter new-amount">
+<br><br>
+<input type="number" id="d" placeholder="enter new-amount">
+<br><br>
+<input type="number" id="e" placeholder="enter new-amount">
+<br><br>
+<input type="number" id="f" placeholder="enter new-amount">
+
+
+</div>
+
+
+<div class="box3">
+	<label>old - amount</label>
+	<br><br>
+	
+<input type="number" id="g" placeholder="enter old-amount">
+<br><br>
+<input type="number" id="h" placeholder="enter old-amount">
+<br><br>
+<input type="number" id="i" placeholder="enter old-amount">
+<br><br>
+<input type="number" id="j" placeholder="enter old-amount">
+<br><br>
+<input type="number" id="k" placeholder="enter old-amount">
+<br><br>
+<input type="number" id="l" placeholder="enter old-amount">
+
+
+</div>
+<br><br>
+<div class="box4">
+<label>bill</label>
+<br><br>
+<input type="number" id="bill" placeholder="enter bill">
+<br><br>
+<label>unit</label>
+<br><br>
+<input type="number" id="unit" placeholder="enter unit">
+</div>
+
+<button onclick="sub()" class="btn">submit</button>
+<br><br>
+<input type="reset" value="reset" class="i">
+<br><br>
+<button onclick="date()" class="btn1">date</button>
+</div>
+</form>
+<div class="footer">	
+<center>
+<img src="talib.jpg" class="img">
+<br>
+<h4>founder:syed talib</h4>
+<h4>study:bsc.it</h4>
+<h4>add:gs road patna colony jsr</h4>
+<h4>follow on !!</h4>
+</center>
+<a href="https://www.instagram.com/syed__talib/" class="a">instagram</a>
+
+</div>
+
+</div>
+
+<script>
+	function sub()
+	{
+		     var val1=document.getElementById('n1').value;
+		     var val2=document.getElementById('n2').value; 
+		     var val3=document.getElementById('n3').value; 
+		     var val4=document.getElementById('n4').value; 
+		     var val5=document.getElementById('n5').value; 
+		     var val6=document.getElementById('n6').value;
+		     var val7=document.getElementById('a').value;
+		     var val8=document.getElementById('b').value; 
+		     var val9=document.getElementById('c').value; 
+		     var val10=document.getElementById('d').value; 
+		     var val11=document.getElementById('e').value; 
+		     var val12=document.getElementById('f').value;  
+		     var val13=document.getElementById('g').value;
+		     var val14=document.getElementById('h').value; 
+		     var val15=document.getElementById('i').value; 
+		     var val16=document.getElementById('j').value; 
+		     var val17=document.getElementById('k').value; 
+		     var val18=document.getElementById('l').value;
+		     var val19=document.getElementById('bill').value;
+		     var val20=document.getElementById('unit').value;
+		     
+		         var ans1=Math.abs(val13-val7)*val20;
+		         var ans2=Math.abs(val14-val8)*val20;
+		         var ans3=Math.abs(val15-val9)*val20;
+		         var ans4=Math.abs(val16-val10)*val20;
+		         var ans5=Math.abs(val17-val11)*val20;
+		         var ans6=Math.abs(val18-val12)*val20;
+		         var total=Math.abs(ans1+ans2+ans3+ans4+ans5+ans6);
+		         var ftotal=Math.abs(total-val19);
+		    
+
+		     if(val1=="")
+		     {
+		     	alert("please fill-up the name");
+		     	return false;
+		     }
+
+		     if(!isNaN(val1))
+		     {
+		     	alert("name is not number !!");
+		     	return false;
+		     }
+		     if(val2=="")
+		     {
+		     	alert("please fill-up the name");
+		     	return false;
+		     }
+		      if(!isNaN(val2))
+		     {
+		     	alert("name is not number !!");
+		     	return false;
+		     }
+		     if(val3=="")
+		     {
+		     	alert("please fill-up the name");
+		     	return false;
+		     }
+		     if(!isNaN(val3))
+		     {
+		     	alert("name is not number !!");
+		     	return false;
+		     }
+		     if(val4=="")
+		     {
+		     	alert("please fill-up the name");
+		     	return false;
+		     }
+		     if(!isNaN(val4))
+		     {
+		     	alert("name is not number !!");
+		     	return false;
+		     }
+		     if(val5=="")
+		     {
+		     	alert("please fill-up the name");
+		     	return false;
+		     }
+		     if(!isNaN(val5))
+		     {
+		     	alert("name is not number !!");
+		     	return false;
+		     }
+		     if(val6=="")
+		     {
+		     	alert("please fill-up the name");
+		     	return false;
+		     }
+		     if(!isNaN(val6))
+		     {
+		     	alert("name is not number !!");
+		     	return false;
+		     }
+		     if((val7=="")||(val8==""))
+		     {
+		     	alert("please fill-up the amount");
+		     	return false;
+		     }
+		     if((val9=="")||(val10==""))
+		     {
+		     	alert("please fill-up the amount");
+		     	return false;
+		     }
+		     if((val11=="")||(val12==""))
+		     {
+		     	alert("please fill-up the amount");
+		     	return false;
+		     }
+		     if((val3=="")||(val14==""))
+		     {
+		     	alert("please fill-up the amount");
+		     	return false;
+		     }
+		     if((val15=="")||(val16==""))
+		     {
+		     	alert("please fill-up the amount");
+		     	return false;
+		     }
+		     if((val17=="")||(val18==""))
+		     {
+		     	alert("please fill-up the amount");
+		     	return false;
+		     }
+		     if(val19=="")
+		      {
+		      	alert("fill up the bill");
+		      	return false;
+
+		      }
+		      if(val20=="")
+		      {
+		      	alert("fill up the unit");
+		      	return false;
+
+		      }
+
+		     
+		      else
+		      {
+		      	
+                 
+
+                 document.write(val1+":"+Math.floor(ans1));
+		      	 document.write("<br>");
+		      	 document.write("<br>");
+		      	  document.write(val2+":"+Math.floor(ans2));
+		      	 document.write("<br>");
+		      	 document.write("<br>");
+		      	 document.write(val3+":"+Math.floor(ans3));
+		      	 document.write("<br>");
+		      	 document.write("<br>");
+		      	  document.write(val4+":"+Math.floor(ans4));
+		      	 document.write("<br>");
+		      	 document.write("<br>");
+		      	 document.write(val5+":"+Math.floor(ans5));
+		      	 document.write("<br>");
+		      	 document.write("<br>");
+		      	  document.write(val6+":"+Math.floor(ans6));
+		      	 document.write("<br>");
+		      	 document.write("<br>");
+		      	 document.write("total:"+Math.floor(total));
+		      	 document.write("<br>");
+		      	 document.write("<br>");
+		      	 document.write("remaining-amount:"+Math.floor(ftotal));
+		      	 document.write("<br>");
+		      	 document.write("<br>");
+		      	 document.write("Final Result");
+		      	 document.write("<hr>");
+		      	 document.write("<br>");
+		      	 
+		      
+		      }
+		    
+	}
+                 	function date(){
+		               var date=new Date();
+		               alert("DATE:"+date);
+
+	               }
+</script>
+</body>
+</html>
